@@ -1,0 +1,275 @@
+\documentclass{article}
+
+\usepackage[utf8x]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage{verbatim}
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\usepackage{amsfonts, amssymb}
+\usepackage{amsmath}
+\usepackage{tikz-qtree}
+\usepackage{mathtools}
+\usepackage{fancybox}
+\usetikzlibrary{positioning}
+\usepackage{multicol}
+\begin{document}
+
+\title{Estructuras Discretas 2015-1\\
+Facultad de Ciencias\\
+Tarea 01 \\ \large {Parte 01}}
+\author{Fernanda Sánchez \quad Najla Ochoa}
+\date{Fecha de entrega: \\ 1 de septiembre de 2014}
+\maketitle
+
+\section*{Gramáticas y árboles de derivación}
+\begin{enumerate}
+
+	\item{Usando la siguiente gramática de expresiones aritméticas, da la secuencia de producciones que utilizas para generar la expresión $(-b + (b  \cdot b - 4  \cdot a  \cdot c)) \div (2  \cdot a)$. Dibuja el árbol que le corresponde a esa expresión.}\\
+		$(a)$ $S ::= E $\\
+		$(b)$ $E ::= var $\\
+        	$(c)$ $E ::= const $\\			
+		$(d)$ $E ::= \rhd E $\\
+		$(e)$ $E ::= E \diamond E$\\
+		$(f)$ $E ::= (E)$\\
+		$(g)$ $var ::= a|b|...$\\
+		$(k)$ $const ::= 0|1|2|3|4|...$\\
+		$(i)$ $\rhd ::= +|- $\\
+		$(j)$ $\diamond ::= +|-|\cdot|\div$\\ \\
+		
+		\large{\textbf{Respuesta:}} \normalsize \\
+
+		\begin{multicols}{2}
+				$1. S$\\
+				$2. E$ \\
+				$3. E \diamond E$ \\
+				$4. (E) \diamond E$ \\
+				$5. (E) \diamond (E)$ \\
+				$6. (E \diamond E) \diamond (E)$ \\
+				$7. (E \diamond (E)) \diamond (E)$ \\  	
+				$8. (\rhd E \diamond (E)) \diamond (E)$\\
+				$9. (- E \diamond (E)) \diamond (E)$\\
+				$10. (- var \diamond (E)) \diamond (E)$\\
+				$11. (- b \diamond (E)) \diamond (E)$\\
+				$12. (- b + (E)) \diamond (E)$ \\	
+				$13. (- b + (E \diamond E)) \diamond (E)$ \\ 	
+				$14. (- b + (E - E)) \diamond (E)$ \\
+				$15. (- b + (E \diamond E - E)) \diamond (E)$ \\
+				$16. (- b + (E \diamond E - E \diamond E)) \diamond (E)$ \\
+				$16. (- b + (E \diamond E - E \diamond E \diamond E)) \diamond (E)$\\ 	
+				$18. (- b + (E \cdot E - E \diamond E \diamond E)) \diamond (E)$ \\
+				$19. (- b + (var \cdot E - E \diamond E \diamond E)) \diamond (E)$ \\ 
+				$20. (- b + (b \cdot E - E \diamond E \diamond E)) \diamond (E)$  \\
+				$21. (- b + (b \cdot var - E \diamond E \diamond E)) \diamond (E)$ \\
+				$22. (- b + (b \cdot b - E \diamond E \diamond E)) \diamond (E)$ \\
+				$23. (- b + (b \cdot b - const \diamond E \diamond E)) \diamond (E)$ \\
+				$24. (- b + (b \cdot b - 4 \diamond E \diamond E)) \diamond (E)$ \\
+				$25. (- b + (b \cdot b - 4 \cdot E \diamond E)) \diamond (E)$ \\
+				$26. (- b + (b \cdot b - 4 \cdot var \diamond E)) \diamond (E)$ \\
+				$27. (- b + (b \cdot b - 4 \cdot a \diamond E)) \diamond (E)$ \\
+				$28. (- b + (b \cdot b - 4 \cdot a \cdot E)) \diamond (E)$ \\
+				$29. (- b + (b \cdot b - 4 \cdot a \cdot var)) \diamond (E)$ \\
+				$30. (- b + (b \cdot b - 4 \cdot a \cdot c)) \diamond (E)$ \\
+				$31. (- b + (b \cdot b - 4 \cdot a \cdot c)) \div (E)$ \\
+				$32. (- b + (b \cdot b - 4 \cdot a \cdot c)) \div (E \diamond E)$ \\
+				$33. (- b + (b \cdot b - 4 \cdot a \cdot c)) \div (E \cdot E)$ \\
+				$34. (- b + (b \cdot b - 4 \cdot a \cdot c)) \div (const \cdot E)$ \\
+				$35. (- b + (b \cdot b - 4 \cdot a \cdot c)) \div (2 \cdot E)$ \\
+				$36. (- b + (b \cdot b - 4 \cdot a \cdot c)) \div (2 \cdot var)$ \\
+				$37. (- b + (b \cdot b - 4 \cdot a \cdot c)) \div (2 \cdot a)$ \\
+			\end{multicols}
+
+	
+			\begin{tikzpicture}
+			\Tree [.\node {S};
+				[.\node {E};
+					[.\node {E};
+						[.\node {$($};]
+						[.\node {E};
+							[.\node {E};
+								[.\node {$\rhd$};
+									[.\node {$-$};]]
+								[.\node {E};
+									[.\node {var};
+										[.\node {b};]]]]
+							[.\node {$\diamond$};
+								[.\node {$+$};]]
+							[.\node {E};
+								[.\node {$($};]
+								[.\node {E};
+									[.\node {E};
+										[.\node {E};
+											[.\node {var};
+											[.\node {b};]]]
+                                                                        	[.\node {$\diamond$};
+											[.\node {$\cdot$};]]
+                                                                        	[.\node {E};
+											[.\node {var};
+                                                                                        [.\node {b};]]]]
+									[.\node {$\diamond$};
+										[.\node {$-$};]]
+									[.\node {E};
+										[.\node {E};
+											[.\node {const};
+                                                                                        [.\node {4};]]]
+                                                                        	[.\node {$\diamond$};
+											[.\node {$\cdot$};]]
+                                                                        	[.\node {E};
+											[.\node {E};
+												[.\node {var};
+                                                                                        	[.\node {a};]]]
+                                                                               		[.\node {$\diamond$};
+												[.\node {$\cdot$};]]
+                                                                                	[.\node {E};
+												[.\node {var};
+                                                                                        	[.\node {c};]]]]]]
+								[.\node {$)$};]]]
+						[.\node {$)$};]]
+					[.\node {$\diamond$};
+						[.\node {$\div$};]]
+					[.\node {E};
+ 						[.\node {$($};]
+                                                [.\node {E};
+							[.\node {E};
+								[.\node {const};
+								[.\node {2};]]]
+							[.\node {$\diamond$};
+								[.\node {$\cdot$};]]
+							[.\node {E};
+								[.\node {var};
+								[.\node {a};]]]]
+                                                [.\node {$)$};]]]]
+			\end{tikzpicture}
+					
+		
+	\item{Dado el siguiente árbol, escribe una posible gramática asociada a éste y las producciones que necesitas para llegar a la expresión que genera.}
+
+	
+\begin{center}	
+\begin{tikzpicture}
+\Tree [.\node(a) {C}; 
+          [.\node (b) {1}; ] 
+          [.\node (c) {C};
+		[.\node(e) {4};]
+		[.\node(f) {C};
+			[.\node(h) {5};]
+			[.\node(i) {C};
+				[.\node(k) {a};]
+				[.\node(l) {C};
+					[.\node(n) {+};]]
+				[.\node(m) {a};]]
+			[.\node(j) {5};]]
+		[.\node(g) {4};] ] 
+          [.\node (d) {1}; ]
+      ]
+
+\end{tikzpicture}	
+\end{center}
+
+\large{\textbf{Respuesta:}} \normalsize \\
+
+Una posible gramática asociada con el árbol de la pregunta es: \\
+	$(1)$ $C ::= 1C1$ \\
+	$(2)$ $C ::= 4C4$ \\
+	$(3)$ $C ::= 5C5$ \\
+	$(4)$ $C ::= aCa$ \\
+	$(5)$ $C ::= +$ \\
+\\ A partir de esta gramática para generar la expresión $145a+a541$ se utilizan las siguientes producciones: \\
+	1. $C$ \\
+	2. $1C1$ \\ 
+	3. $14C41$ \\
+	4. $145C541$ \\
+	5. $145aCa541$ \\
+	6. $145a+a541$ \\
+
+
+\section*{El lenguaje de la lógica proposicional}
+
+	\item{¿Cuáles de las siguientes oraciones son proposiciones atómicas, cuáles no atómicas y cuáles no son proposiciones?}
+		\\ \textbf{\large {Respuestas: }} \normalsize		
+		\begin{itemize}
+			\item{El perro come papel:} \textbf{Proposición atómica}
+			\item{Gracias:} \textbf{No es proposición}
+			\item{$(x + 5) + \sqrt{i} = 5 $:} \textbf{Proposición atómica}
+			\item{$(x + 5) + \sqrt{i}$:} \textbf{No es proposición}
+			\item{Pablo y su amiga van al parque:} \textbf{Proposición no atómica}
+			\item{$x \leq 0 \leq y$:} \textbf{Proposición no atómica}
+		\end{itemize}
+	\item{Usando las variables proposicionales $l$ y $a$ para denotar a las proposiciones atómicas \emph{Juan es muy listo} y \emph{Juan está satisfecho} respectivamente, denota con estas variables proposicionales y los conectivos lógicos a las siguientes proposiciones lógicas.}
+		\\ \textbf{\large {Respuestas: }} \normalsize	
+		\begin{itemize}
+			\item{Juan es muy listo y está satisfecho.} \textbf{ Fórmula: $l \wedge a$}
+			\item{Si Juan no fuera listo, no estaría satisfecho.} \textbf{ Fórmula: $\neg l \rightarrow \neg a$}
+			\item{Juan está satisfecho únicamente si es listo.} \textbf{Fórmula: $a \leftrightarrow l$}
+			\item{Juan es listo pero no está satisfecho.} \textbf{Fórmmula: $l \wedge \neg a$}
+		\end{itemize}
+	\item{Para cada uno de los siguientes enunciados, asigna variables proposicionales y escribe la fórmula o argumento lógico correspondiente al enunciado.}
+		\begin{itemize}
+			\item Si Pepito compite en natación va a ganar el primer lugar. Si Juanito compite en natación va a ganar el primer lugar. Alguno de los dos no va a quedar en primer lugar en la competencia de natación. Por lo tanto o Pepito no compite o Juanito no compite.\\
+		
+			\textbf{\large Respuesta:}\normalsize 
+			Pepito compite en natación: $p$ \\
+			Juanito compite en natación: $j$ \\
+			Ganar el 1er lugar: $l$	\\
+
+			1. $p \rightarrow l$\\
+			2. $j \rightarrow l$\\
+			3. $\neg (p \wedge l) \vee \neg (j \wedge l)$\\
+			\noindent\rule{3cm}{0.4pt} \\
+			$\therefore \neg p \vee \neg j$ \\
+			\item Voy a comer tacos o quesadillas. Decidí no comer quesadillas. Entonces comeré tacos. \\
+			\\ \textbf{\large Respuesta:\\}\normalsize \\
+			Comer tacos: $t$ \\
+			Comer quesadillas: $q$ \\ 			
+			1. $t \vee q$ \\
+			2. $\neg q$ \\
+			\noindent\rule{3cm}{0.4pt} \\
+			$\therefore t$
+			
+		\end{itemize}
+	\item{Construye la tabla de verdad para cada una de las siguientes fórmulas, clasificando si se trata de una tautología, contadicción o contingencia.}
+		
+		\textbf{\large Respuestas:}\normalsize
+		\begin{itemize}
+			\item{$(p \wedge (r \wedge q)) \rightarrow r$}: \textbf{Contingencia}
+			\item{$((p \rightarrow q) \wedge \neg q) \rightarrow p$}: \textbf{Contingencia}
+			\item{$(q \vee p) \rightarrow (\neg p \rightarrow q)$}: \textbf{Tautología}
+		\end{itemize}
+	\item{Analiza mediante tablas de verdad la correctud de los siguientes argumentos.}
+		\\ \textbf{\large Respuestas:}\normalsize 
+		\begin{itemize}
+			\item{$p,q / \therefore p \wedge q $}: \textbf{El argumento es correcto.}
+			\item{$p \rightarrow q, \neg q / \therefore \neg p$}: \textbf{El argumento es correcto.}
+			\item{$p \rightarrow q \vee r, \neg q / \therefore p \rightarrow r$}: \textbf{El argumento no es correcto.}
+		\end{itemize}	
+\section*{Evaluación de expresiones}
+	\item{Coloca los paréntesis en las siguientes expresiones de acuerdo a la precedencia y asociatividad de los operadores.}
+		\textbf{\large Respuestas:}\normalsize    
+		\begin{itemize}
+			\item{$(((-b) + (b ** 2)) - ((((4 \cdot a) \cdot c) / 2) \cdot a))$}
+			\item{$((((p \wedge q) \vee r) \rightarrow s) \leftrightarrow (a \vee q))$}
+			\item{$((p \wedge q) \rightarrow ((\neg r) \vee q))$}
+		\end{itemize}
+	\item{Realiza las siguientes sustituciones textuales.}
+		\begin{itemize}
+			\item{$x + y \cdot x [x \coloneqq y + 2][y \coloneqq y \cdot x] $}\\
+			\textbf{Sustitución:} $x + y \cdot (y \cdot x +2)$\\
+			\item{$(x + y \cdot x) [x \coloneqq y + 2][y \coloneqq y \cdot x] $}\\
+			\textbf{Sustitución:} $y \cdot x + 2 + y \cdot x \cdot y \cdot x + 2$\\
+			\item{$(x + x \cdot 2)[x,y \coloneqq x, z][x \coloneqq y] $}\\
+			\textbf{Sustitución:} $y + y \cdot 2 $\\
+			\item{$(x + x \cdot y + x \cdot y \cdot z)[x,y \coloneqq y,x][y \coloneqq 2 \cdot y]$}\\	
+			\textbf{Sustitución:} $2 \cdot y + 2 \cdot y \cdot x + 2 \cdot y \cdot x \cdot z $
+		\end{itemize}
+\section*{Análisis sintáctico de expresiones lógicas}
+	\item{De los siguientes enunciados, define el conectivo principal y con base en éste obtén el esquema básico. Para cada operador: si el operador es binario especifica su rango izquierdo y su rango derecho; si el operador es unario, especifica su rango(derecho). Finalmente, construye su árbol de análisis sintáctico.}
+		\begin{itemize}
+			\item {$p \vee (\neg p \wedge q) \rightarrow p \vee q$}
+			\item {$\neg (p \wedge q \rightarrow p \vee q)$}
+			\item {$\neg p \vee q \rightarrow p \wedge \neg q \rightarrow \neg p \vee \neg q \rightarrow \neg p \wedge \neg q$}
+
+		\end{itemize}
+\end{enumerate}
+
+\textbf{Extra:}¿Qué es sintaxis?¿Qué es semántica?
+
+\end{document}
