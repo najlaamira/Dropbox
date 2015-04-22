@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2014/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ManualTeXiS.aux
+A level-1 auxiliary file: Cascaras/cover.aux
+A level-1 auxiliary file: Cascaras/dedicatoria.aux
+A level-1 auxiliary file: Cascaras/agradecimientos.aux
+A level-1 auxiliary file: Cascaras/resumenManual.aux
+A level-1 auxiliary file: TeXiS/TeXiS_toc.aux
+A level-1 auxiliary file: Capitulos/01Introduccion.aux
+A level-1 auxiliary file: Capitulos/02EstructuraYGeneracion.aux
+A level-1 auxiliary file: Capitulos/03Edicion.aux
+A level-1 auxiliary file: Capitulos/04Imagenes.aux
+A level-1 auxiliary file: Capitulos/05Bibliografia.aux
+A level-1 auxiliary file: Capitulos/06Makefile.aux
+A level-1 auxiliary file: Apendices/01AsiSeHizo.aux
+A level-1 auxiliary file: Cascaras/bibliografia.aux
+The style file: TeXiS/TeXiS.bst
+A level-1 auxiliary file: TeXiS/TeXiS_acron.aux
+A level-1 auxiliary file: Cascaras/fin.aux
+Database file #1: nuestros.bib
+Database file #2: latex.bib
+Database file #3: otros.bib
+Warning--empty journal in BibTexOriginal
+Warning--empty journal in patashnik1988a
+You've used 27 entries,
+            2962 wiz_defined-function locations,
+            1239 strings with 15827 characters,
+and the built_in function-call counts, 12479 in all, are:
+= -- 914
+> -- 383
+< -- 27
++ -- 160
+- -- 123
+* -- 799
+:= -- 1977
+add.period$ -- 92
+call.type$ -- 27
+change.case$ -- 161
+chr.to.int$ -- 25
+cite$ -- 29
+duplicate$ -- 1075
+empty$ -- 1081
+format.name$ -- 162
+if$ -- 2456
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 228
+newline$ -- 150
+num.names$ -- 109
+pop$ -- 502
+preamble$ -- 1
+purify$ -- 149
+quote$ -- 0
+skip$ -- 406
+stack$ -- 0
+substring$ -- 305
+swap$ -- 474
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 222
+warning$ -- 2
+while$ -- 81
+width$ -- 0
+write$ -- 351
+(There were 2 warnings)

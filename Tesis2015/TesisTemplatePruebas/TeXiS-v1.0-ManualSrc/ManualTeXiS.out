@@ -1,0 +1,77 @@
+\BOOKMARK [0][-]{titulo.0}{P\341gina de T\355tulo}{}% 1
+\BOOKMARK [0][-]{dedicatoria.0}{Dedicatoria}{}% 2
+\BOOKMARK [0][-]{chapter*.1}{Agradecimientos}{}% 3
+\BOOKMARK [0][-]{chapter*.2}{Resumen}{}% 4
+\BOOKMARK [0][-]{indices.0}{\315ndices}{}% 5
+\BOOKMARK [1][-]{tabla de contenidos.1}{Tabla de contenidos}{indices.0}% 6
+\BOOKMARK [1][-]{indice de figuras.1}{\315ndice de figuras}{indices.0}% 7
+\BOOKMARK [1][-]{indice de tablas.1}{\315ndice de tablas}{indices.0}% 8
+\BOOKMARK [0][-]{chapter.1}{Introducci\363n}{}% 9
+\BOOKMARK [1][-]{section.1.1}{Introducci\363n}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.2}{Qu\351 es TeX.15emiS}{chapter.1}% 11
+\BOOKMARK [1][-]{section.1.3}{Qu\351 no es}{chapter.1}% 12
+\BOOKMARK [1][-]{section.1.4}{Estructura de cap\355tulos}{chapter.1}% 13
+\BOOKMARK [1][-]{section.1.4}{Notas bibliogr\341ficas}{chapter.1}% 14
+\BOOKMARK [1][-]{section.1.4}{En el pr\363ximo cap\355tulo}{chapter.1}% 15
+\BOOKMARK [0][-]{chapter.2}{Estructura y generaci\363n}{}% 16
+\BOOKMARK [1][-]{section.2.1}{Estructura de directorios}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.2}{Ficheros con el texto principal del documento}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.3}{Ficheros del documento auxiliares}{chapter.2}% 19
+\BOOKMARK [1][-]{section.2.4}{Directorio raiz}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{Ficheros de la plantilla}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.6}{Generando el documento}{chapter.2}% 22
+\BOOKMARK [1][-]{figure.caption.6}{Notas bibliogr\341ficas}{chapter.2}% 23
+\BOOKMARK [1][-]{figure.caption.6}{En el pr\363ximo cap\355tulo}{chapter.2}% 24
+\BOOKMARK [0][-]{chapter.3}{Algoritmo del m\351todo realizador de Schnyder}{}% 25
+\BOOKMARK [1][-]{section.3.1}{Empezando a escribir}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.2}{Editando el texto}{chapter.3}% 27
+\BOOKMARK [2][-]{subsection.3.2.1}{Nuevos cap\355tulos \(y ap\351ndices\)}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.2}{Resumen del cap\355tulo}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.3}{Frases c\351lebres}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.4}{Secciones no numeradas}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.5}{Cap\355tulos especiales}{section.3.2}% 32
+\BOOKMARK [1][-]{section.3.3}{Programando en LaTeX}{chapter.3}% 33
+\BOOKMARK [1][-]{section.3.4}{Modos de generaci\363n del documento}{chapter.3}% 34
+\BOOKMARK [2][-]{subsection.3.4.1}{Comando com}{section.3.4}% 35
+\BOOKMARK [2][-]{subsection.3.4.2}{Comando comp}{section.3.4}% 36
+\BOOKMARK [2][-]{subsection.3.4.3}{Comando todo}{section.3.4}% 37
+\BOOKMARK [1][-]{section.3.5}{Acelerando la compilaci\363n}{chapter.3}% 38
+\BOOKMARK [1][-]{section.3.6}{Editores de LaTeX y compilaci\363n}{chapter.3}% 39
+\BOOKMARK [1][-]{section.3.7}{Control de versiones}{chapter.3}% 40
+\BOOKMARK [1][-]{section.3.7}{Notas bibliogr\341ficas}{chapter.3}% 41
+\BOOKMARK [1][-]{section.3.7}{En el pr\363ximo cap\355tulo}{chapter.3}% 42
+\BOOKMARK [0][-]{chapter.4}{Gesti\363n de las im\341genes}{}% 43
+\BOOKMARK [1][-]{section.4.1}{Introducci\363n}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.2}{Gesti\363n de im\341genes}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.3}{Formato de las im\341genes}{chapter.4}% 46
+\BOOKMARK [1][-]{section.4.4}{Im\341genes independientes del programa generador}{chapter.4}% 47
+\BOOKMARK [1][-]{section.4.5}{Gesti\363n de im\341genes y control de versiones}{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.6}{Im\341genes divididas}{chapter.4}% 49
+\BOOKMARK [1][-]{figure.caption.11}{Notas bibliogr\341ficas}{chapter.4}% 50
+\BOOKMARK [1][-]{figure.caption.11}{En el pr\363ximo cap\355tulo}{chapter.4}% 51
+\BOOKMARK [0][-]{chapter.5}{Bibliograf\355a y acr\363nimos}{}% 52
+\BOOKMARK [1][-]{section.5.1}{Bibliograf\355a}{chapter.5}% 53
+\BOOKMARK [2][-]{subsection.5.1.1}{Ficheros involucrados}{section.5.1}% 54
+\BOOKMARK [2][-]{subsection.5.1.2}{Referencias con natbib}{section.5.1}% 55
+\BOOKMARK [2][-]{subsection.5.1.3}{Modificaciones en los @bibitem}{section.5.1}% 56
+\BOOKMARK [2][-]{subsection.5.1.4}{Cambio del estilo de la bibliograf\355a}{section.5.1}% 57
+\BOOKMARK [1][-]{section.5.2}{Acr\363nimos}{chapter.5}% 58
+\BOOKMARK [2][-]{subsection.5.2.1}{Acr\363nimos con glosstex}{section.5.2}% 59
+\BOOKMARK [2][-]{subsection.5.2.2}{Acr\363nimos en TeX.15emiS}{section.5.2}% 60
+\BOOKMARK [2][-]{subsection.5.2.3}{M\341s all\341 de TeX.15emiS}{section.5.2}% 61
+\BOOKMARK [1][-]{subsection.5.2.3}{Notas bibliogr\341ficas}{chapter.5}% 62
+\BOOKMARK [1][-]{subsection.5.2.3}{En el pr\363ximo cap\355tulo}{chapter.5}% 63
+\BOOKMARK [0][-]{chapter.6}{Makefile}{}% 64
+\BOOKMARK [1][-]{section.6.1}{Introducci\363n}{chapter.6}% 65
+\BOOKMARK [1][-]{section.6.2}{Objetivos del Makefile}{chapter.6}% 66
+\BOOKMARK [1][-]{section.6.3}{Funcionamiento interno}{chapter.6}% 67
+\BOOKMARK [2][-]{subsection.6.3.1}{La compilaci\363n de las im\341genes}{section.6.3}% 68
+\BOOKMARK [2][-]{subsection.6.3.2}{Makefile, GlossTeX, y cambio de modo de generaci\363n}{section.6.3}% 69
+\BOOKMARK [1][-]{subsection.6.3.2}{Notas bibliogr\341ficas}{chapter.6}% 70
+\BOOKMARK [0][-]{appendix.Alph1}{As\355 se hizo...}{}% 71
+\BOOKMARK [1][-]{section.Alph1.1}{Edici\363n}{appendix.Alph1}% 72
+\BOOKMARK [1][-]{section.Alph1.2}{Encuadernaci\363n}{appendix.Alph1}% 73
+\BOOKMARK [1][-]{section.Alph1.3}{En el d\355a a d\355a}{appendix.Alph1}% 74
+\BOOKMARK [0][-]{appendix*.16}{Bibliograf\355a}{}% 75
+\BOOKMARK [0][-]{appendix*.16}{Lista de acr\363nimos}{}% 76
+\BOOKMARK [0][-]{fin.0}{Fin}{}% 77

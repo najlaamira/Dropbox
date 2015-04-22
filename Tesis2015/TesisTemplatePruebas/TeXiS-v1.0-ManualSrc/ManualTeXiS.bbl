@@ -1,0 +1,172 @@
+\begin{thebibliography}{27}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+
+\bibitem[{Abrahams(1990)}]{texImpatient}
+{\sc Abrahams, P.~W.}
+\newblock {\em \TeX\ for the Impatient\/}.
+\newblock Addison Wesley Publishing Company, 1990.
+
+\bibitem[{Bautista et\ al.(1998)Bautista, Oetiker, Partl, Hyna y
+  Schlegl}]{ldesc2e}
+{\sc Bautista, T.}, {\sc Oetiker, T.}, {\sc Partl, H.}, {\sc Hyna, I.} y {\sc
+  Schlegl, E.}
+\newblock {\em Una Descripción de \LaTeXe\/}.
+\newblock Versión electrónica, 1998.
+
+\bibitem[{Buckland(2005)}]{AIbyExample}
+{\sc Buckland, M.}
+\newblock {\em Programming Game {AI} by Example\/}.
+\newblock Wordware Publishing, Inc., 2005.
+
+\bibitem[{Collins-Sussman et\ al.(2004)Collins-Sussman, Fitzpatrick y
+  Pilato}]{Subversion}
+{\sc Collins-Sussman, B.}, {\sc Fitzpatrick, B.~W.} y {\sc Pilato, C.~M.}
+\newblock {\em Version Control with Subversion\/}.
+\newblock O'Reilly, 2004.
+\newblock ISBN 0-596-00448-6.
+\newblock Disponible en \url{http://svnbook.red-bean.com/} (último acceso,
+  Octubre, 2009).
+
+\bibitem[{Eijkhout(1991)}]{texByTopic}
+{\sc Eijkhout, V.}
+\newblock {\em \TeX\ by Topic, a \TeX nician's Reference\/}.
+\newblock Addison-Wesley, 1991.
+
+\bibitem[{Flynn(2005)}]{Flynn05}
+{\sc Flynn, P.}
+\newblock {\em A beginner's introduction to typesetting with \LaTeX\/}.
+\newblock The Comprehensive TeX Archive Network, 2005.
+
+\bibitem[{Fowler(2006)}]{Fowler06}
+{\sc Fowler, M.}
+\newblock Continuous integration.
+\newblock 2006.
+\newblock Disponible en
+  \url{http://martinfowler.com/articles/continuousIntegration.html} (último
+  acceso,  Octubre, 2009).
+
+\bibitem[{G\'{o}mez-Mart\'{i}n(2008{\natexlab{a}})}]{GomezMartinMA2008PhD}
+{\sc G\'{o}mez-Mart\'{i}n, M.~A.}
+\newblock {\em Arquitectura y metodología para el desarrollo de sistemas
+  educativos basados en videojuegos\/}.
+\newblock Phd, Universidad Complutense de Madrid, 2008{\natexlab{a}}.
+
+\bibitem[{G\'{o}mez-Mart\'{i}n y G\'{o}mez-Mart\'{i}n(2009)}]{CCLatex}
+{\sc G\'{o}mez-Mart\'{i}n, M.~A.} y {\sc G\'{o}mez-Mart\'{i}n, P.~P.}
+\newblock Continuous integration in {\LaTeX}.
+\newblock {\em The Prac\TeX\ Journal\/}, vol. \em In Press., 2009.
+
+\bibitem[{G\'{o}mez-Mart\'{i}n(2008{\natexlab{b}})}]{GomezMartinPP2008PhD}
+{\sc G\'{o}mez-Mart\'{i}n, P.~P.}
+\newblock {\em Modelo de enseñanza basado en casos: de los tutores inteligentes
+  a los videojuegos\/}.
+\newblock Phd, Universidad Complutense de Madrid, 2008{\natexlab{b}}.
+
+\bibitem[{Kalderon(2007)}]{LatexAndSVN}
+{\sc Kalderon, M.~E.}
+\newblock {\LaTeX} and {S}ubversion.
+\newblock {\em The Prac\TeX\ Journal\/}, vol. 2007(3), 2007.
+
+\bibitem[{Knuth(1986)}]{texKnuth}
+{\sc Knuth, D.~E.}
+\newblock {\em The \TeX\ book\/}.
+\newblock Addison-Wesley Professional., 1986.
+
+\bibitem[{Krishnan(2003)}]{latexAPrimer}
+{\sc Krishnan, E.}, editor.
+\newblock {\em \LaTeX\ Tutorials. A primer\/}.
+\newblock Indian \TeX\ Users Group, 2003.
+
+\bibitem[{Lamport(1994)}]{LaTeXLamport}
+{\sc Lamport, L.}
+\newblock {\em \LaTeX: A Document Preparation System, 2nd Edition\/}.
+\newblock Addison-Wesley Professional, 1994.
+
+\bibitem[{López(2004)}]{AtazLopezEmacs}
+{\sc López, J.~A.}
+\newblock {\em Creación de ficheros \LaTeX\ con {GNU} Emacs\/}.
+\newblock Versión electrónica, 2004.
+\newblock Disponible en
+  \url{http://ctan.org/get/info/spanish/guia-atx/guia-atx.pdf} (último acceso,
+  Octubre, 2009).
+
+\bibitem[{López(2006)}]{AtazLopez}
+{\sc López, J.~A.}
+\newblock {\em Gu{\'{i}}a \emph{casi} completa de {BibTeX}\/}.
+\newblock Versión electrónica, 2006.
+\newblock Disponible en
+  \url{ftp://ftp.ctan.org/tex-archive/info/spanish/guia-bibtex/guia-bibtex.pdf}
+  (último acceso,  Octubre, 2009).
+
+\bibitem[{Mecklenburg(2004)}]{libroMake}
+{\sc Mecklenburg, R.}
+\newblock {\em Managing Projects with GNU Make, 3rd edition\/}.
+\newblock O'Reilly Media, Inc, 2004.
+\newblock ISBN 0596006101.
+
+\bibitem[{Mittelbach et\ al.(2004)Mittelbach, Goossens, Braams, Carlisle y
+  Rowley}]{latexCompanion}
+{\sc Mittelbach, F.}, {\sc Goossens, M.}, {\sc Braams, J.}, {\sc Carlisle, D.}
+  y {\sc Rowley, C.}
+\newblock {\em The \LaTeX\ Companion\/}.
+\newblock Addison-Wesley Professional, segunda edici\'on, 2004.
+
+\bibitem[{Oetiker et\ al.(1996)Oetiker, Partl, Hyna y Schlegl}]{notsoshort}
+{\sc Oetiker, T.}, {\sc Partl, H.}, {\sc Hyna, I.} y {\sc Schlegl, E.}
+\newblock {\em The Not So Short Introduction to \LaTeXe\/}.
+\newblock Versión electrónica, 1996.
+
+\bibitem[{Patashnik(1988{\natexlab{a}})}]{BibTexOriginal}
+{\sc Patashnik, O.}
+\newblock {BibTeX}ing.
+\newblock 1988{\natexlab{a}}.
+\newblock Disponible en
+  \url{ftp://ftp.ctan.org/tex-archive/biblio/bibtex/contrib/doc/btxdoc.pdf}
+  (último acceso,  Octubre, 2009).
+
+\bibitem[{Patashnik(1988{\natexlab{b}})}]{patashnik1988a}
+{\sc Patashnik, O.}
+\newblock Designing {BibTeX} styles.
+\newblock 1988{\natexlab{b}}.
+\newblock Disponible en
+  \url{ftp://ftp.ctan.org/tex-archive/biblio/bibtex/contrib/doc/btxhak.pdf}
+  (último acceso,  Octubre, 2009).
+
+\bibitem[{Scharrer(2007)}]{SVNmulti}
+{\sc Scharrer, M.}
+\newblock Version control of {\LaTeX} documents with svn-multi.
+\newblock {\em The Prac\TeX\ Journal\/}, vol. 2007(3), 2007.
+
+\bibitem[{Stallman(2007)}]{emacsStallman}
+{\sc Stallman, R.~M.}
+\newblock {\em {GNU} Emacs Manual for Version 22, 16th Edition\/}.
+\newblock Free Software Foundation, 2007.
+\newblock Disponible en
+  \url{http://www.gnu.org/software/emacs/manual/emacs.pdf} (último acceso,
+  Octubre, 2009).
+
+\bibitem[{ThoughtWorks(2001)}]{CruiseControl}
+{\sc ThoughtWorks, I.}
+\newblock Cruise control.
+\newblock 2001.
+\newblock Disponible en \url{http://cruisecontrol.sourceforge.net/index.html}
+  (último acceso,  Octubre, 2009).
+
+\bibitem[{Vesperman(2003)}]{CVS}
+{\sc Vesperman, J.}
+\newblock {\em Essential CVS\/}.
+\newblock O'Reilly, 2003.
+\newblock ISBN 0-596-00459-1.
+
+\bibitem[{Wikipedia(LaTeX)}]{LaTeXWikipedia}
+{\sc Wikipedia} (LaTeX).
+\newblock Entrada: ``{LaTeX}''.
+\newblock Disponible en \url{http://es.wikipedia.org/wiki/LaTeX} (último
+  acceso,  Octubre, 2009).
+
+\bibitem[{Ziegenhagen(2007)}]{PaquetesSVNLatex}
+{\sc Ziegenhagen, U.}
+\newblock {\LaTeX} document management with {S}ubversion.
+\newblock {\em The Prac\TeX\ Journal\/}, vol. 2007(3), 2007.
+
+\end{thebibliography}

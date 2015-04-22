@@ -1,0 +1,71 @@
+\select@language {spanish}
+\contentsline {chapter}{Agradecimientos}{\es@scroman {ix}}{chapter*.1}
+\contentsline {chapter}{Resumen}{\es@scroman {xi}}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introducci\'on}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introducci\'on}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Qu\'e es T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m \raise .15em\hbox {\textsc {i}}S}{3}{section.1.2}
+\contentsline {section}{\numberline {1.3}Qu\'e no es}{4}{section.1.3}
+\contentsline {section}{\numberline {1.4}Estructura de cap\IeC {\'\i }tulos}{4}{section.1.4}
+\contentsline {section}{Notas bibliogr\'aficas}{5}{section.1.4}
+\contentsline {section}{En el pr\'oximo cap\IeC {\'\i }tulo}{5}{section.1.4}
+\contentsline {chapter}{\numberline {2}Estructura y generaci\'on}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1}Estructura de directorios}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2}Ficheros con el texto principal del documento}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Ficheros del documento auxiliares}{9}{section.2.3}
+\contentsline {section}{\numberline {2.4}Directorio raiz}{10}{section.2.4}
+\contentsline {section}{\numberline {2.5}Ficheros de la plantilla}{11}{section.2.5}
+\contentsline {section}{\numberline {2.6}Generando el documento}{13}{section.2.6}
+\contentsline {section}{Notas bibliogr\'aficas}{14}{figure.caption.6}
+\contentsline {section}{En el pr\'oximo cap\IeC {\'\i }tulo}{14}{figure.caption.6}
+\contentsline {chapter}{\numberline {3}Algoritmo del m\'etodo realizador de Schnyder}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Empezando a escribir}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}Editando el texto}{17}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Nuevos cap\IeC {\'\i }tulos (y ap\'endices)}{17}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Resumen del cap\IeC {\'\i }tulo}{18}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Frases c\'elebres}{18}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Secciones no numeradas}{19}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Cap\IeC {\'\i }tulos especiales}{22}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Programando en \LaTeX }{23}{section.3.3}
+\contentsline {section}{\numberline {3.4}Modos de generaci\'on del documento}{23}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Comando \texttt {com}}{24}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Comando \texttt {comp}}{25}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Comando \texttt {todo}}{25}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Acelerando la compilaci\'on}{26}{section.3.5}
+\contentsline {section}{\numberline {3.6}Editores de \LaTeX \ y compilaci\'on}{27}{section.3.6}
+\contentsline {section}{\numberline {3.7}Control de versiones}{28}{section.3.7}
+\contentsline {section}{Notas bibliogr\'aficas}{30}{section.3.7}
+\contentsline {section}{En el pr\'oximo cap\IeC {\'\i }tulo}{30}{section.3.7}
+\contentsline {chapter}{\numberline {4}Gesti\'on de las im\'agenes}{31}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introducci\'on}{31}{section.4.1}
+\contentsline {section}{\numberline {4.2}Gesti\'on de im\'agenes}{32}{section.4.2}
+\contentsline {section}{\numberline {4.3}Formato de las im\'agenes}{34}{section.4.3}
+\contentsline {section}{\numberline {4.4}Im\'agenes independientes del programa generador}{35}{section.4.4}
+\contentsline {section}{\numberline {4.5}Gesti\'on de im\'agenes y control de versiones}{35}{section.4.5}
+\contentsline {section}{\numberline {4.6}Im\'agenes divididas}{36}{section.4.6}
+\contentsline {section}{Notas bibliogr\'aficas}{40}{figure.caption.11}
+\contentsline {section}{En el pr\'oximo cap\IeC {\'\i }tulo}{40}{figure.caption.11}
+\contentsline {chapter}{\numberline {5}Bibliograf\IeC {\'\i }a y acr\'onimos}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Bibliograf\IeC {\'\i }a}{41}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Ficheros involucrados}{42}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Referencias con \texttt {natbib}}{42}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Modificaciones en los \texttt {@bibitem}}{43}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Cambio del estilo de la bibliograf\IeC {\'\i }a}{45}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Acr\'onimos}{46}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Acr\'onimos con glosstex}{46}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Acr\'onimos en T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m \raise .15em\hbox {\textsc {i}}S}{50}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}M\'as all\'a de T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m \raise .15em\hbox {\textsc {i}}S}{51}{subsection.5.2.3}
+\contentsline {section}{Notas bibliogr\'aficas}{52}{subsection.5.2.3}
+\contentsline {section}{En el pr\'oximo cap\IeC {\'\i }tulo}{52}{subsection.5.2.3}
+\contentsline {chapter}{\numberline {6}Makefile}{53}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introducci\'on}{53}{section.6.1}
+\contentsline {section}{\numberline {6.2}Objetivos del \texttt {Makefile}}{54}{section.6.2}
+\contentsline {section}{\numberline {6.3}Funcionamiento interno}{56}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}La compilaci\'on de las im\'agenes}{56}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Makefile, GlossT\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m , y cambio de modo de generaci\'on}{58}{subsection.6.3.2}
+\contentsline {section}{Notas bibliogr\'aficas}{59}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {A}As\IeC {\'\i } se hizo...}{61}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Edici\'on}{61}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Encuadernaci\'on}{62}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}En el d\IeC {\'\i }a a d\IeC {\'\i }a}{62}{section.Alph1.3}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{65}{appendix*.16}
+\contentsline {chapter}{Lista de acr\'onimos}{68}{appendix*.16}

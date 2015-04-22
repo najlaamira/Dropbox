@@ -1,0 +1,10 @@
+This is makeindex, version 2.15 [TeX Live 2014] (kpathsea + Thai support).
+Scanning style file /usr/share/texmf/makeindex/glosstex.ist.........
+** Input style error (file = /usr/share/texmf/makeindex/glosstex.ist, line = 63):
+   -- Unknown specifier \endinput.
+done (9 attributes redefined, 1 ignored).
+Scanning input file ManualTeXiS.gxs....done (3 entries accepted, 0 rejected).
+Sorting entries....done (4 comparisons).
+Generating output file ManualTeXiS.glx....done (8 lines written, 0 warnings).
+Output written in ManualTeXiS.glx.
+Transcript written in ManualTeXiS.ilg.
